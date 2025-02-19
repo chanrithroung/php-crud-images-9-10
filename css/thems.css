@@ -1,0 +1,31 @@
+.btn-submit {
+    padding: 10px 40px;
+    background-color: #7f65d6;
+    box-shadow: 5px 5px 5px #7f65d68d;
+    color: white;
+    border: none;
+    outline: none;
+    margin: 20px 0;
+    border-radius: 24px;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-submit:hover {
+    transform: translate(5px, 5px);
+    box-shadow: 0px 0px 0px #7f65d68d;
+}
+
+.price {
+    padding: 5px 8px;
+    background-color: rgba(30, 143, 255, 0.279);
+    border-radius: 8px;
+    color: dodgerblue;
+}
+
+.title {
+    width: 200px;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
